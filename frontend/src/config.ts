@@ -1,1 +1,1 @@
-export const BACKEND_URL = "https://medium.rajdhok07.workers.dev"
+export const BACKEND_URL = process.env.BACKEND_URL!;
